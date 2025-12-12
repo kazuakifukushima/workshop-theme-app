@@ -124,7 +124,7 @@ export default function Home() {
           <CardContent className="space-y-6 pt-4">
             <div className="grid grid-cols-1 gap-6 md:grid-cols-2">
               <div className="space-y-2">
-                <label className="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70">
+                <label className="text-sm font-medium leading-none text-gray-900 peer-disabled:cursor-not-allowed peer-disabled:opacity-70">
                   職種 (Role)
                 </label>
                 <Input
@@ -135,7 +135,7 @@ export default function Home() {
               </div>
 
               <div className="space-y-2">
-                <label className="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70">
+                <label className="text-sm font-medium leading-none text-gray-900 peer-disabled:cursor-not-allowed peer-disabled:opacity-70">
                   興味・関心 (Interest)
                 </label>
                 <Input
@@ -147,7 +147,7 @@ export default function Home() {
             </div>
 
             <div className="space-y-2">
-              <label className="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70">
+              <label className="text-sm font-medium leading-none text-gray-900 peer-disabled:cursor-not-allowed peer-disabled:opacity-70">
                 難易度 (Difficulty)
               </label>
               <Select onValueChange={(v) => setDifficulty(v as Difficulty)}>
