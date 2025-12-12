@@ -166,7 +166,7 @@ export default function Home() {
 
             <Button
               size="lg"
-              className="w-full font-bold text-lg bg-cyan-400 hover:bg-cyan-500 text-black shadow-lg transition-all hover:scale-[1.01]"
+              className="w-full mt-8 font-bold text-lg bg-cyan-400 hover:bg-cyan-500 text-black shadow-lg transition-all hover:scale-[1.01]"
               onClick={handleGenerate}
               disabled={!canGenerate}
             >
